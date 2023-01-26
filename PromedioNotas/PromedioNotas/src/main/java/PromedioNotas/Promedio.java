@@ -6,6 +6,7 @@
 package PromedioNotas;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -27,14 +28,17 @@ public class Promedio {
         float total=0;
         for(i=0;i<5;++i)
         {
-            System.out.println("ingrese calificacion del alumno "+i+": ");
+            //JOptionPane.showMessageDialog(null,"Bienvenido al programa Promedio Alumno");
+            System.out.println("BIENVENIDO AL PROGRAMA PROMEDIO ALUMNO");
+            System.out.println("ingrese calificaciones de alumnos "+i+": ");
+            //JOptionPane.showMessageDialog(null,"Ingrese calificaciones del alumno de 0 a 100 pts "+i+":");
             prome[i]=teclado.nextInt();
            total=total+prome[i];
         }
-        System.out.println("total es: "+total);
+        System.out.println("El total de las notas es: "+total);
         total= total/5;
-        System.out.println("promedio general es: "+total);
-        for(i=19;i>=0;--i)
+        System.out.println("El promedio general de notas es: "+total);
+        for(i=4;i>=0;--i)
             System.out.println("alumno "+i+" su promedio es: "+prome[i]);  
     }        
         

@@ -20,7 +20,7 @@ public class OperacionesBasicas {
         // TODO code application logic here
         float opc=0,dato1=0,dato2=0,result=0;
         JOptionPane.showMessageDialog(null,"A continuacion ingrese la opcion de la operacion que desea realizar"); 
-        JOptionPane.showMessageDialog(null,"1.-sumar    2.-restar   3.-multiplicar  4.-dividir  otro numero.-salir");
+        JOptionPane.showMessageDialog(null,"1.-sumar    2.-restar   3.-multiplicar  4.-dividir ||otro numero.-salir||");
        // System.out.println("A continuacion ingrese la opcion de la operacion que desea realizar");
        // System.out.println("1.-sumar    2.-restar   3.-multiplicar  4.-dividir  otro numero.-salir");
        // System.out.println("seleccione una opcion: ");
@@ -44,7 +44,7 @@ public class OperacionesBasicas {
         JOptionPane.showMessageDialog(null, "el resultado es: "+result);
         }
             System.out.println("saliendo del programa Operaciones Basicas...");
-            JOptionPane.showMessageDialog(null,"adios");        
+            JOptionPane.showMessageDialog(null,"adios, que tenga un buen dia");        
     }
     
 }
